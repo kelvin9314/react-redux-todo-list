@@ -1,4 +1,4 @@
-import { ADD_COUNTER, RESET_COUNTER } from "../actions/actions.types";
+import { ADD_COUNTER, RESET_COUNTER } from "./counter.types";
 
 const initalState = {
   amount: 0,

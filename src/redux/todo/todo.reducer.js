@@ -3,14 +3,14 @@ import {
   CLEAR_TODO_LIST,
   DELETE_TODO,
   TOGGLE_TODO
-} from "../actions/actions.types";
+} from "./todo.types";
 
 const initalState = {
   counter: 0,
   list: [{ id: 0, text: "Happy Hacking ~v~", completed: false }]
 };
 
-const todos = (state = initalState, action) => {
+const todo = (state = initalState, action) => {
   switch (action.type) {
     case ADD_TODO:
       return {
@@ -39,4 +39,4 @@ const todos = (state = initalState, action) => {
   }
 };
 
-export default todos;
+export default todo;
