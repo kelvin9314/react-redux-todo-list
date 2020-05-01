@@ -1,8 +1,14 @@
 {
   "name": "react-redux-todo-list",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.1.0",
+  "private": true,
+  "description": "This is a simple todo-list application for practicing react with redux, which is a state management",
+  "keywords": [
+    "React",
+    "React.js",
+    "redux"
+  ],
+  "author": "kelvin9314 <https://github.com/kelvin9314>",
   "homepage": "https://kelvin9314.github.io/react-redux-todo-list",
   "license": "MIT",
   "main": "src/index.js",
@@ -13,11 +19,10 @@
     "react-dom": "16.13.1",
     "react-redux": "7.2.0",
     "react-scripts": "3.4.1",
-    "redux": "latest"
+    "redux": "latest",
+    "redux-logger": "^3.0.6"
   },
-  "devDependencies": {
-    "typescript": "3.8.3"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
